@@ -1,0 +1,115 @@
+### Python ###
+# Byte-compiled / optimized / DLL
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metatdata/
+share/python-wheels/
+.installed.cfg
+.webassets-cache
+
+# Scrapy stuff:
+.scrappy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# celery bet schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.saga.py
+
+# Environments
+.env
+.venv
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject 
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+### Python Patch ###
+.venv/
+
+### Vagrant ###
+# General
+.vagrant/
+
+# Log files (if you are creating logs in debug mode, uncomment this)
+# *.logs
+
+### Vagrant Patch ###
+*.box
+
+*.pyc
+.coverage
+.project
+.pydevproject
+.idea
+
+# tox testing
+.tox/
+
+.vagrant
+Vagrantfile
+!tests/vagrantfiles/**/Vagrantfile
+
+# Ingore python packaging files/dirs
+/build/
+/dist/
+/python_vagrant.egg-info/
+*.egg-info/
+*.box
+src/vagrant/_version.py
+
+# End of https://www.gitignore.io/api/python,vagrant
+eb-package.zip
+static/
+
+
